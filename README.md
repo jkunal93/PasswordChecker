@@ -29,7 +29,7 @@ This approach protects your password while still allowing you to verify whether 
 * hashlib
 * Have I Been Pwned Passwords API
 
-### Disclaimer**
+### Disclaimer
 This project is intended for educational purposes and personal password checking. Always use strong, unique passwords and consider using a password manager.
 
 ### Acknowledgements
