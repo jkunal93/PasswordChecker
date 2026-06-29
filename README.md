@@ -4,13 +4,13 @@ A simple Python command-line application that checks whether a password has been
 
 The application uses the k-Anonymity model, meaning your actual password is never sent over the internet. Instead, it sends only the first five characters of the SHA-1 hash of your password and compares the remaining hash locally.
 
-#### Features
+### Features
 * Check one or multiple passwords from the command line
 * Uses the Have I Been Pwned Passwords API
 * Passwords are never transmitted to the API
 * Simple, lightweight, and beginner-friendly Python project
 
-#### How It Works
+### How It Works
 1. Your password is hashed using SHA-1.
 2. Only the first five characters of the hash are sent to the HIBP API.
 3. The API returns all matching hash suffixes.
@@ -19,18 +19,18 @@ The application uses the k-Anonymity model, meaning your actual password is neve
 
 This approach protects your password while still allowing you to verify whether it has been compromised.
 
-#### Requirements
+### Requirements
 * Python 3.x
 * requests
 
-#### Technologies Used
+### Technologies Used
 * Python
 * requests
 * hashlib
 * Have I Been Pwned Passwords API
 
-#### Disclaimer**
+### Disclaimer**
 This project is intended for educational purposes and personal password checking. Always use strong, unique passwords and consider using a password manager.
 
-#### Acknowledgements
+### Acknowledgements
 This project uses the Have I Been Pwned Passwords API created by Troy Hunt.
