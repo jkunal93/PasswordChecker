@@ -1,4 +1,4 @@
-**Password Leak Checker**
+# **Password Leak Checker**
 
 A simple Python command-line application that checks whether a password has been exposed in known data breaches using the Have I Been Pwned (HIBP) Passwords API.
 
